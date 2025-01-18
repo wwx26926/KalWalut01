@@ -1,79 +1,81 @@
-# Currency Converter
+# Przelicznik Walut
 
-## 🌟 Overview
-The **Currency Converter** is a simple and user-friendly Java application designed to convert amounts between 20 different currencies using predefined exchange rates. It features an intuitive dialog-based interface powered by `JOptionPane`.
+Aplikacja stworzona przez **Karola Karasia**.
 
----
-
-## ✨ Features
-- **Multi-currency support**: Convert amounts between 20 popular currencies.
-- **Interactive UI**: Dialog-based interaction ensures simplicity.
-- **Error handling**: Handles invalid inputs gracefully.
-- **Quick conversion**: Instant calculations using hardcoded exchange rates.
+## 🌟 Opis
+**Przelicznik Walut** to prosta i przyjazna dla użytkownika aplikacja Java, zaprojektowana do przeliczania kwot pomiędzy 20 różnymi walutami przy użyciu zdefiniowanych kursów wymiany. Aplikacja wykorzystuje intuicyjny interfejs oparty na oknach dialogowych `JOptionPane`.
 
 ---
 
-## 🌍 Supported Currencies
-- **USD** (United States Dollar)
+## ✨ Funkcje
+- **Obsługa wielu walut**: Przeliczaj kwoty pomiędzy 20 popularnymi walutami.
+- **Interaktywny interfejs**: Prosty i intuicyjny dzięki oknom dialogowym.
+- **Obsługa błędów**: Wyświetla komunikaty w przypadku nieprawidłowego wejścia.
+- **Szybkie przeliczenia**: Natychmiastowe wyniki przy użyciu zdefiniowanych kursów wymiany.
+
+---
+
+## 🌍 Obsługiwane waluty
+- **USD** (Dolar amerykański)
 - **EUR** (Euro)
-- **GBP** (British Pound Sterling)
-- **JPY** (Japanese Yen)
-- **AUD** (Australian Dollar)
-- **CAD** (Canadian Dollar)
-- **CHF** (Swiss Franc)
-- **CNY** (Chinese Yuan)
-- **SEK** (Swedish Krona)
-- **NZD** (New Zealand Dollar)
-- **INR** (Indian Rupee)
-- **BRL** (Brazilian Real)
-- **ZAR** (South African Rand)
-- **RUB** (Russian Ruble)
-- **MXN** (Mexican Peso)
-- **HKD** (Hong Kong Dollar)
-- **SGD** (Singapore Dollar)
-- **KRW** (South Korean Won)
-- **TRY** (Turkish Lira)
-- **PLN** (Polish Zloty)
+- **GBP** (Funt brytyjski)
+- **JPY** (Jen japoński)
+- **AUD** (Dolar australijski)
+- **CAD** (Dolar kanadyjski)
+- **CHF** (Frank szwajcarski)
+- **CNY** (Juan chiński)
+- **SEK** (Korona szwedzka)
+- **NZD** (Dolar nowozelandzki)
+- **INR** (Rupia indyjska)
+- **BRL** (Real brazylijski)
+- **ZAR** (Rand południowoafrykański)
+- **RUB** (Rubel rosyjski)
+- **MXN** (Peso meksykańskie)
+- **HKD** (Dolar hongkoński)
+- **SGD** (Dolar singapurski)
+- **KRW** (Won południowokoreański)
+- **TRY** (Lira turecka)
+- **PLN** (Złoty polski)
 
 ---
 
-## 🛠️ How to Run
-1. Ensure **Java** is installed on your system.
-2. Compile the program:
+## 🛠️ Jak uruchomić
+1. Upewnij się, że **Java** jest zainstalowana na Twoim systemie.
+2. Skompiluj program:
    ```bash
    javac CurrencyConverter.java
    ```
-3. Run the program:
+3. Uruchom program:
    ```bash
    java CurrencyConverter
    ```
-4. Follow the on-screen instructions:
-   - Select the source and target currencies.
-   - Enter the amount to convert.
-   - View the result in a dialog box.
+4. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie:
+   - Wybierz walutę początkową i docelową.
+   - Wprowadź kwotę do przeliczenia.
+   - Zobacz wynik w oknie dialogowym.
 
 ---
 
-## 📋 Example Usage
-1. Select **USD** as the source currency and **EUR** as the target currency.
-2. Input an amount, e.g., `100`.
-3. The program calculates the equivalent amount in **EUR** using the predefined exchange rate and displays it.
+## 📋 Przykład użycia
+1. Wybierz **USD** jako walutę początkową i **EUR** jako walutę docelową.
+2. Wprowadź kwotę, np. `100`.
+3. Program obliczy równowartość w **EUR** przy użyciu zdefiniowanego kursu wymiany i wyświetli wynik.
 
 ---
 
-## ⚠️ Notes
-- **Exchange rates**: The rates are hardcoded and may not reflect real-world values.
-- **Dynamic updates**: The program can be extended to fetch live rates via an API for real-time accuracy.
+## ⚠️ Uwagi
+- **Kursy wymiany**: Kursy są zdefiniowane w kodzie i mogą nie odzwierciedlać rzeczywistych wartości rynkowych.
+- **Dynamiczne aktualizacje**: Program można rozbudować o funkcję pobierania aktualnych kursów z API.
 
 ---
 
-## 🛡️ Error Handling
-- If the user enters invalid input (e.g., text instead of a number), an error message is displayed.
-- Users can cancel the process at any time by closing the dialog boxes.
+## 🛡️ Obsługa błędów
+- Jeśli użytkownik wprowadzi nieprawidłowe dane (np. tekst zamiast liczby), zostanie wyświetlony odpowiedni komunikat.
+- Proces można anulować w dowolnym momencie, zamykając okna dialogowe.
 
 ---
 
-## 📄 License
-This project is **open-source** and available for personal and educational use. Feel free to extend and modify it to suit your needs.
+## 📄 Licencja
+Ten projekt jest **open-source** i dostępny do użytku osobistego oraz edukacyjnego. Możesz go dowolnie rozszerzać i modyfikować zgodnie z własnymi potrzebami.
 
 ---
